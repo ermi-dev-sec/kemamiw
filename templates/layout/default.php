@@ -29,8 +29,8 @@ $cakeDescription = 'CakeVue Application';
 </head>
 <body>
     <span id="app">
-
-        <app></app>
+<top-header></top-header>
+        <app class="uk-container uk-margin-large"></app>
 
         <footer></footer>
     </span>
