@@ -1,4 +1,20 @@
 body {
   background-color: #ffffff;
 }
+.uk-navbar-container {
+  background-color: #2a9d8f !important;
+}
+.uk-navbar-container a {
+  color: #2f3e46 !important;
+  font-family: 'Times New Roman', Times, serif !important;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.uk-navbar-container a:hover {
+  color: #03071e !important;
+}
+.uk-navbar-container ul div {
+  background-color: #2a9d8f;
+  margin-top: -100px !important;
+}
 

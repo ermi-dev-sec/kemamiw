@@ -1,4 +1,32 @@
 @bdy: #ffffff;
+@primary: #2a9d8f;
+@primary-link-text: #2f3e46;
+
+
 body{
     background-color: @bdy;
+}
+
+//header
+
+.uk-navbar-container{
+    background-color: @primary !important;
+
+    a{
+        color: @primary-link-text !important;
+        font-family: 'Times New Roman', Times, serif !important;
+        font-weight: bold;
+        letter-spacing: 1px;
+        &:hover{
+            color: #03071e !important;
+        }
+    }
+
+    ul{
+        //dropdown
+        div{
+            background-color: @primary;
+            margin-top: -100px !important;
+        }
+    }
 }
